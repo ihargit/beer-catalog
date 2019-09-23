@@ -3,7 +3,10 @@ import Layout from '../components/Layout';
 
 
 
-export default class Home {
+const Home = () => (
+            <Layout>
+            </Layout>
+        )
 
-}
+export default Home;
 

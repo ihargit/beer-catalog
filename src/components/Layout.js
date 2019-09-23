@@ -15,14 +15,13 @@ const useStyles = makeStyles((theme) => ({
 
 
 const Layout = ({children}) => (
-  <>
-  <div className={useStyles().root}></div>
-  <CssBaseLine />
-  <Header />
-  {children}
-  <Footer />
-  </>
-)
+    <div className={useStyles().root}>
+      <CssBaseLine />
+      <Header />
+      {children}
+      {/* <Footer /> */}
+    </div>
+  )
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
